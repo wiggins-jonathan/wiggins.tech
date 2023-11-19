@@ -1,2 +1,3 @@
-Source code for https://wiggins.tech.<br>
-With help from [Hugo](https://gohugo.io/) & [Hermit](https://themes.gohugo.io/hermit/).
+Source code for [https://wiggins.tech](https://wiggins.tech).
+With help from [Hugo](https://gohugo.io/) &
+[Papermod](https://github.com/adityatelange/hugo-PaperMod).

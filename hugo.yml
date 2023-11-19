@@ -1,0 +1,41 @@
+baseURL: "https://wiggins.tech/"
+languageCode: en-us
+title: wiggins.tech
+
+module: # theme
+  imports:
+    - path: "github.com/adityatelange/hugo-PaperMod"
+
+languages:
+  en:
+    languageName: English
+    weight: 10
+    menu:
+      main:
+        - name: Search
+          url: "search/"
+          weight: 10
+        - name: Archive
+          url: "archives"
+          weight: 20
+
+params:
+  ShowCodeCopyButtons: true
+  ShowReadingTime: true
+  ShowBreadCrumbs: true
+
+  homeInfoParams:
+    Title: hello, friend
+
+  socialIcons:
+    - name: Rss
+      url: "index.xml"
+
+  fuseOpts: # search
+    includeScore: true
+
+outputs:  # search
+  home:
+    - HTML
+    - RSS
+    - JSON
