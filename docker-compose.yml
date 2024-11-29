@@ -1,0 +1,10 @@
+services:
+  hugo:
+    image: hugomods/hugo:go-git-non-root-0.139.0
+    container_name: ${DOMAIN}
+    command: server --appendPort=false --baseURL=https://${DOMAIN}
+    ports: ["1312:1313"]
+    volumes:
+      - ./src:/src
+      - ./cache:/tmp/hugo_cache
+    restart: unless-stopped
