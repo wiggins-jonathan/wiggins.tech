@@ -1,5 +1,5 @@
 ---
-title: "Use Nix for shareable developer environments."
+title: "Use Nix for Shareable Developer Environments"
 date: 2024-11-27T12:43:30-07:00
 showToC: true
 TocOpen: true
